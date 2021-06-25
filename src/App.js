@@ -16,6 +16,5 @@ function App() {
     </div>
   );
 }
-//3st test commit
 
 export default App;
