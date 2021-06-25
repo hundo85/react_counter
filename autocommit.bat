@@ -1,5 +1,3 @@
-::=========== autocommit.bat ==============
-
 @echo off
 cls
 
@@ -7,7 +5,7 @@ echo "===================================="
 echo "====================================">> Autocommit.log
 
 rem set autocommit  [ interval ] in seconds  - 1 minute 60, 20 min 1200 1 hour 3600
-SET /A "interval = 1200"
+SET /A "interval = 10"
 
 rem set commit counter index 
 SET /A "index = 1"
@@ -40,7 +38,4 @@ rem sleep %interval%
    GOTO :ujra
 )
 
-
 pause "auto commit end...."
-
-::============ end autocommit.bat =============
