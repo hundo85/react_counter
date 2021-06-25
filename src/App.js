@@ -8,13 +8,14 @@ function App() {
       <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
-        </button>
+      </button>
 
       <button onClick={() => setCount(count - 1)}>
         Or not
-        </button>
+      </button>
     </div>
   );
 }
+//1st test commit
 
 export default App;
